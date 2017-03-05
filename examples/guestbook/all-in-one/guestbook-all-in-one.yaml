@@ -127,7 +127,7 @@ metadata:
 spec:
   # if your cluster supports it, uncomment the following to automatically create
   # an external load-balanced IP for the frontend service.
-  # type: LoadBalancer
+  type: LoadBalancer
   ports:
     # the port that this service should serve on
   - port: 80
@@ -147,7 +147,7 @@ metadata:
 spec:
   # this replicas value is default
   # modify it according to your case
-  replicas: 3
+  replicas: 5
   # selector can be applied automatically
   # from the labels in the pod template if not set
   # selector:
